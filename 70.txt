@@ -1,0 +1,9 @@
+static web ec2
+
+
+sudo apt-get install nginx
+cd /
+cd var/www/
+sudo chmod 777 html
+
+remotr-> /var/www/html
