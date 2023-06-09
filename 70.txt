@@ -7,3 +7,31 @@ cd var/www/
 sudo chmod 777 html
 
 remotr-> /var/www/html
+
+
+load bal--->>template
+autoscale
+
+nano abc.sh
+<code>
+ctrl+x y
+
+connect--nano abc.sh
+chmod +x abc.sh
+
+
+
+elastic ip---->
+alloc elas ip->ipv4->associate ip
+->ip4->associate
+
+
+git to ec2-->>
+apt-get update
+apt-get install  nginx
+ngnix -v
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+apt-get install nodejs
+git clone https://github.com/.../...
+cd ...
+npm install
